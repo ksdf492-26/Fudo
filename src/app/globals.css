@@ -25,7 +25,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 /* styles.css */
-.text-hover-orange {
-  @apply hover:text-orange-600;
+.text-hover-red-food {
+  @apply hover:text-[#e95757];
+}
+.text-red-food {
+  @apply text-[#e95757];
 }
 
+.bg-red-food{
+  @apply bg-[#e95757]
+}
