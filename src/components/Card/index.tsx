@@ -1,6 +1,6 @@
-import { CardType } from "@/types/cardType"
+import { Card } from "@/types/Card"
 
-function Cards ({url,title,text}:CardType) {
+function index ({url,title,text}:Card) {
     return(
         <div className="flex flex-col w-72 items-center justify-center">
             <div>
@@ -17,4 +17,4 @@ function Cards ({url,title,text}:CardType) {
         </div>
     )
 }
-export default Cards
+export default index;

@@ -1,7 +1,7 @@
 import { BiSearch } from "react-icons/bi"
 import { IoBag } from "react-icons/io5"
 import { FiLogIn } from 'react-icons/fi';
-
+import Button from '@/components/Button'
 function Header () {
     return (
         <header className="mt-4">
@@ -25,10 +25,7 @@ function Header () {
                    <menu className="flex items-center gap-10">
                     <BiSearch size={30}  />
                     <IoBag size={30} />
-                    <button className="!rounded-[50px] w-34 flex items-center justify-center gap-2 font-bold bg-red-food text-white p-3 text-lg"> 
-                        <FiLogIn size={20} />
-                        Login
-                    </button>
+                    <Button text="Login" Icon={FiLogIn} />
                  
                     </menu> 
             </nav>

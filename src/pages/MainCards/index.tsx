@@ -1,6 +1,6 @@
-import Cards from "@/components/Cards"
+import Cards from "@/components/Card"
 
-function MainCards () {
+function index () {
     return (
         <section className="container">
             <div className="flex flex-col mt-20">
@@ -27,4 +27,4 @@ function MainCards () {
     )
 }
 
-export default MainCards
+export default index
