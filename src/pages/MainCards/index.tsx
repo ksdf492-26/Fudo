@@ -1,6 +1,6 @@
 import Cards from "@/components/Card"
 
-function index () {
+function index() {
     return (
         <section className="container">
             <div className="flex flex-col mt-20">
@@ -13,14 +13,14 @@ function index () {
                             your favorite food
                         </div>
                         <div>
-                            delivery partner 
+                            delivery partner
                         </div>
                     </div>
                 </div>
                 <div className="flex items-center justify-between">
                     <Cards url="f1.png" title="easy to order" text="Your only need a few steps in ordering food" />
                     <Cards url="f2.png " title="fastest delivery" text="Delivery that is always ontime event faster" />
-                    <Cards url="f3.png" title="best quality" text="Not only fast for us quality is also number one"/>
+                    <Cards url="f3.png" title="best quality" text="Not only fast for us quality is also number one" />
                 </div>
             </div>
         </section>

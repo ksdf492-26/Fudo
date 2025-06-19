@@ -15,32 +15,33 @@ function index() {
     }
     return (
         <section className="container">
-            <div className='flex items-center justify-around'>
+            <div className='flex items-center justify-around mb-48'>
                 <div className='relative'>
                     <img src="./cozinheiro.png" alt="" />
-  <div className='bg-gray-200 w-[300px] h-[150px] bottom-[-70px] right-0 absolute flex flex-col items-center rounded-3xl'>
-    <div className='font-medium text-xl m-3'>
-        Our Reviews
-    </div>
-    <div className='relative w-40 h-14'>
-        {
-            Peoples
-                .filter(people => people.id <= 3)
-                .map((people, index) => (
-                    <img
-                        key={people.id}
-                        src={people.url}
-                        className='w-16 h-16 rounded-full border-2 border-white absolute'
-                        style={{ left: `${index * 30}px` }}
-                    />
-                ))
-        }
-        <span className='w-16 h-16 rounded-full border-2 bg-red-food flex items-center justify-center border-white absolute text-white font-medium text-xl'
-                style={{ left: `${3 * 30}px` }}>
-                12k
-        </span>
-    </div>
-</div>
+                    <div className='bg-gray-200 w-[300px] h-[150px] bottom-[-70px] right-0 absolute flex flex-col items-center rounded-3xl shadow-[0_8px_30px_rgba(59,130,246,0.5)]'>
+
+                        <div className='font-medium text-xl m-3'>
+                            Our Reviews
+                        </div>
+                        <div className='relative w-40 h-14'>
+                            {
+                                Peoples
+                                    .filter(people => people.id <= 3)
+                                    .map((people, index) => (
+                                        <img
+                                            key={people.id}
+                                            src={people.url}
+                                            className='w-16 h-16 rounded-full border-2 border-white absolute'
+                                            style={{ left: `${index * 30}px` }}
+                                        />
+                                    ))
+                            }
+                            <span className='w-16 h-16 rounded-full border-2 bg-red-food flex items-center justify-center border-white absolute text-white font-medium text-xl'
+                                style={{ left: `${3 * 30}px` }}>
+                                12k
+                            </span>
+                        </div>
+                    </div>
 
                 </div>
                 <div className=' flex flex-col gap-4'>
