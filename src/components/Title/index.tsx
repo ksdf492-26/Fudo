@@ -6,7 +6,7 @@ function index ({title,textOne,textTwo}:Titles) {
                     <div className="uppercase text-lg text-red-food font-medium" >
                         {title}
                     </div>
-                    <div className="text-[40px] flex flex-col font-bold">
+                    <div className="text-[40px] flex flex-col font-bold capitalize">
                         <div>
                             {textOne}
                         </div>

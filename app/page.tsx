@@ -2,9 +2,9 @@ import Header from "@/include/headerPage";
 import MainBanner from "@/pages/MainBanner";
 import MainCards from "@/pages/MainCards";
 import MainMenu from '@/pages/MainMenu'
-
-
+import MainReview from '@/pages/MainReview'
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 export default function Home() {
   return (
     <>
@@ -13,6 +13,8 @@ export default function Home() {
         <MainBanner/>
         <MainCards/>
         <MainMenu/>
+        <MainReview/>
+
       </main>
     </>
   );
