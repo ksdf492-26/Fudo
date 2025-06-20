@@ -56,7 +56,7 @@ npm run dev
 🖼️ Preview
 Uma interface moderna com navegação simples, seções bem divididas e foco na experiência do usuário.
 
-![Preview do projeto Fudo](/FUDO_Design.png)
+![Preview do projeto Fudo](./FUDO_Design.png)
 
 📜 Créditos
 Design: Ryan Rocha de Catro
