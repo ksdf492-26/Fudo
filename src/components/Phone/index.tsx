@@ -1,16 +1,17 @@
 import { FaMapMarker, FaPizzaSlice } from "react-icons/fa";
 import { FaBurger, FaGrip } from "react-icons/fa6";
 import { GiCupcake } from "react-icons/gi";
-
+import { Squares2X2Icon } from '@heroicons/react/24/outline'
 function index() {
     return (
         <div className="bg-white flex h-[550px] flex-col items-center justify-between absolute bottom-0 right-24 rounded-t-3xl">
             <div>
                 <div className='flex items-center gap-14 p-3'>
-                    <FaGrip className='w-12 rounded-xl bg-gray-200 h-12' />
-                    <div className='flex items-baseline justify-around font-medium'>
+                    <Squares2X2Icon className='w-12 rounded-xl bg-gray-200 h-12' />
+                    <div className='flex items-center gap-1 justify-around font-medium'>
                         <FaMapMarker className='text-red-food' />
                         Xique Xique Bahia, BR
+                        
                     </div>
                     <div className='w-12 h-12 rounded-xl bg-gray-200'>
                         <img className='w-10 h-10' src="./Tony.png" alt="" />
@@ -67,8 +68,11 @@ function index() {
                     <div className="text-xl font-medium">
                         Popular Now
                     </div>
-                    <span className="text-xs text-amber-500 font-extralight">
+                    <span className="text-xs cursor-pointer text-amber-500 font-extralight flex gap-2 items-center">
                         View Now
+                        <div className="w-5 h-5 bg-amber-400 text-white  rounded-lg flex items-center justify-center text-lg">
+                            {'>'}
+                        </div>
                     </span>
                 </div>
                 <div className='flex items-center justify-around'>

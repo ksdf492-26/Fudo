@@ -2,7 +2,7 @@ import { BiSearch } from "react-icons/bi"
 import { IoBag } from "react-icons/io5"
 import { FiLogIn } from 'react-icons/fi';
 import Button from '@/components/Button'
-function Header () {
+function index () {
     return (
         <header className="mt-4">
             <section className="container">
@@ -34,4 +34,4 @@ function Header () {
     )
 }
 
-export default Header
+export default index

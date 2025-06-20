@@ -1,4 +1,5 @@
-import { BiPhone, BiPlay } from "react-icons/bi"
+import { BiPlay } from "react-icons/bi"
+import Span from '@/components/Span'
 import Button from '@/components/Button'
 function index() {
     return (
@@ -22,22 +23,7 @@ function index() {
                             <BiPlay size={30} className="text-yellow-500 rounded-[50px] flex items-center justify-center bg-yellow-50 w-10  h-10  " />
                             Watch video
                         </div>
-                        <span className=" !rounded-[50px] h-[56px] !capitalize flex items-center justify-between font-bold  text-white p-3 text-lg bg-gray-200 w-[280px] ">
-                            <div>
-                                <img className='w-10 rounded-full h-10' src="./Food Courier.jpeg" alt="" />
-                            </div>
-                            <div className='flex flex-col'>
-                                <div className='text-lg font-medium text-black'>
-                                    Red Richards
-                                </div>
-                                <div className='text-gray-500 font-medium text-xs'>
-                                    Food courier
-                                </div>
-                            </div>
-                            <div className='rounded-full h-10 w-10 bg-red-food flex items-center justify-center'>
-                                <BiPhone size={25} color='white' />
-                            </div>
-                        </span>
+                        <Span name='Reed Richards' url='Food Courier.jpeg' />
                     </div>
                 </div>
                 <div>
