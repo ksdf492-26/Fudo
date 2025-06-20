@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍱 Fudo — Projeto de Site de Delivery
 
-## Getting Started
+**Fudo** é um projeto front-end inspirado em plataformas de entrega como o iFood. A ideia é praticar estruturação de interfaces com React, TypeScript e TailwindCSS, aplicando boas práticas de componente, design responsivo e organização de pastas.
 
-First, run the development server:
+> 🎨 O layout foi criado por **Ryan Rocha de Catro**, responsável por todo o design visual do projeto.
+
+---
+
+## 💡 Objetivo
+
+Este repositório foi criado com fins de estudo e prática. O foco principal é a construção de uma landing page funcional e bonita para um sistema fictício de delivery chamado **Fudo**.
+
+---
+
+## 🔧 Tecnologias Utilizadas
+
+- **React**
+- **TypeScript**
+- **Next**
+- **Tailwind CSS**
+- **React Icons**
+
+---
+
+## 🧱 Estrutura do Projeto
+app/
+└── page.tsx → Componente principal
+src/
+├── components/ → Componentes reutilizáveis (ex: List, ProductCard)
+├── pages/ → Seções principais da página (Banner, Menu, Review etc.)
+├── include/ → Elementos como Footer e Header
+└── types/ → Tipagens TypeScript globais
+
+
+yaml
+Copiar
+Editar
+
+---
+
+## 📦 Como Rodar
 
 ```bash
+# Clone o repositório
+git clone https://github.com/ksdf492-26/Fudo.git
+
+# Entre na pasta do projeto
+cd fudo
+
+# Instale as dependências
+npm install
+
+# Rode o projeto
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🖼️ Preview
+Uma interface moderna com navegação simples, seções bem divididas e foco na experiência do usuário.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![Preview do projeto Fudo](./FUDO_Designer.png)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+📜 Créditos
+Design: Ryan Rocha de Catro
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Desenvolvimento: Kauã S. Fonseca
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+📘 Licença
+Este projeto está licenciado sob a licença MIT — sinta-se livre para estudar, modificar e reutilizar.

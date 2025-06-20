@@ -6,7 +6,7 @@ function index () {
     return (
         <header className="mt-4">
             <section className="container">
-            <nav className="flex justify-between items-center text-black font-light">
+            <nav className="flex justify-around items-center text-black font-light">
                 <img src="logo.png" alt="" />
                 <ul className="ul-items flex items-center gap-10">
                     <li className="text-hover-red-food ">

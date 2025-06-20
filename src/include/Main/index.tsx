@@ -4,7 +4,7 @@ import Menu from '@/pages/MainMenu'
 import Review from '@/pages/MainReview'
 import DownloadApp from '@/pages/MainDownloadApp'
 
-import { Pages } from '@/types/MainPage'
+import { Pages } from '@/types/Pages'
 
 const Page: Pages[] = [
     { page: "Banner" },
