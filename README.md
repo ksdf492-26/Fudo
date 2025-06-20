@@ -23,12 +23,7 @@ Este repositório foi criado com fins de estudo e prática. O foco principal é 
 ---
 
 ## 🧱 Estrutura do Projeto
-src/
-├── components/ → Componentes reutilizáveis (ex: List, ProductCard)
-├── pages/ → Seções principais da página (Banner, Menu, Review etc.)
-├── include/ → Elementos como Footer e Header
-└── types/ → Tipagens TypeScript globais
-
+<pre> ```txt app/ └── page.tsx → Componente principal src/ ├── components/ → Componentes reutilizáveis (ex: List, ProductCard) ├── pages/ → Seções principais da página (Banner, Menu, Review etc.) ├── include/ → Elementos como Footer e Header └── types/ → Tipagens TypeScript globais ``` </pre>
 
 yaml
 Copiar
